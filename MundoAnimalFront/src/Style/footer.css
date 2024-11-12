@@ -1,0 +1,54 @@
+.container-footer{
+    align-items: center;
+    background-color:#052560;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10vh;
+    padding-top: 20px;
+    width: 110%;
+}
+.img-footer{
+    height: 10vh;
+    width: 25vw;
+    margin-left: -5vh;
+}
+.navbar{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    margin-left: -8vh; 
+}
+.sucursales, .contacto{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.navbar span {
+    font-size: small;
+    font-weight: bold;
+}
+.navbar li {
+    padding: 3px;    
+}
+.li-title{
+    font-size: small;
+    font-weight: bold;
+    list-style-type: none;    
+}
+.li-info{
+    font-weight: lighter;
+    font-size: 12px;
+    list-style-type: none;
+}
+.ig a{
+    font-size: 25px;
+    margin-left: 10px;    
+}
+.contact {
+    margin-left: -8vh;
+    
+}

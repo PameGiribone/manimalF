@@ -1,0 +1,76 @@
+.link-wpp{
+    position: fixed;
+    bottom: 15px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;    
+    box-shadow: 0 4px 8px #0003;
+    font-size: 25px;
+    text-decoration: none;
+    transition: background-color .3s ease;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.whatsapp-button:hover {
+    background-color: #22b358;
+  }
+  
+  /* Contenedor del chat de WhatsApp */
+  .whatsapp-chat {
+    position: fixed;
+    bottom: 80px;
+    right: 30px;
+    width: 200px;
+    background-color: white;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .chat-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+  }
+  
+  .chat-body {
+    margin-top: 10px;
+    font-size: 0.7rem;
+  }
+  .chat-body a {
+    font-size: 0.9rem;
+  }
+  .start-chat {
+    display: flex;
+    align-items: center;
+    background-color: #25D366;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .start-chat:hover {
+    background-color: #22b358;
+  }
+  
+  .close-chat {
+    background: none;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #555;
+  }
+  
+  .close-chat:hover {
+    color: red;
+  }
+  

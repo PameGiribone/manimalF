@@ -1,0 +1,49 @@
+.container-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: max-content;
+    text-align: center; 
+    
+}
+.section-contact{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: max-content;
+    padding: 5px;
+    margin-top: 10vh;
+   
+    
+}
+.section-contact h1 {
+    font-weight: bold;
+    color: #052560;
+    font-size: medium;
+}
+.container-contact h3{
+    color: #052560;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.container-contact p{    
+    font-size: 12px;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+.sucursal{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.icon {
+    font-size: 2rem;
+    color: #052560;
+    margin-bottom: 0.5rem;
+    margin-top: 1rem;
+}
+.map a{
+    display: none;
+} 

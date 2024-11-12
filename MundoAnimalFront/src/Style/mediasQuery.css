@@ -1,0 +1,424 @@
+
+@media (min-width: 374px) and (max-width: 424px) {
+    .categories{
+        display: grid;
+        gap: 10vw;
+        grid-template-columns: 20vw 20vw;
+    }
+    .img-categories{
+        height: 10vh ;
+        width: 20vw;
+    }
+    .content p {
+       font-size: 14px;
+       text-align: center;
+       
+    }
+    .section-contact {
+        width: 85%;
+       }
+       .section-contact h3 {    
+        font-size: 1.1rem;
+       }
+       .section-contact p {    
+        font-size: 1rem;
+       }
+       .slider {
+        width: 100%;
+        height: 100%;
+    }
+    .section-we-are {
+        width: 85%;
+    }
+     
+   
+}
+@media (min-width: 425px) and (max-width: 767px) {
+    .categories{
+        display: grid;
+        gap: 6vw;
+        grid-template-columns: 20vw 20vw 20vw;
+    }
+    .img-categories{
+        width: 20vw;
+    }
+    .section-we-are {
+        width: 85%;
+    }
+    .section-we-are span {
+        font-size: 1rem;
+    }
+   .section-contact {
+    width: 85%;
+   }
+   .section-contact h3 {    
+    font-size: 1.1rem;
+   }
+   .section-contact p {    
+    font-size: 1rem;
+   }
+   .slider {
+    width: 100%;
+    height: 100%;
+    }
+    .menu-button{
+        margin-left: 40vh;
+    }
+    .card p {
+        padding: 30px;
+    }
+  
+}
+@media (min-width: 768px) and (max-width: 1022px) {
+    .img-logo {
+        height: 10vh;
+        width: 13vw;
+        
+    }
+    .navbar-header .open {
+        display: block;
+       
+        
+    }
+    
+    .navbar-header li {
+        font-size: 0.9rem;
+    }
+    
+    .search p {
+        font-size: 15px;
+    }
+    .input-search {
+        width: 30vw;
+    }
+    .categories{
+        display: grid;
+        gap: 5vw;
+        grid-template-columns: 20vw 20vw 20vw 20vw;
+    }
+    .img-categories {
+        border-radius: 50%;
+        height: 15vh;
+        width: 12vw;
+    }
+    .name-categories {
+        margin-left: 2vw;
+    }
+    .content p {
+        margin-top: -1vh;
+        font-size: 1rem;
+        margin-left: 0vw;
+        height: 40vh;
+        width: 22vw;
+       }
+   .container-footer{
+    display: flex;
+    flex-direction: row;
+   }
+   .contacto{
+   margin-top: -3vh;
+}
+   .navbar{
+    display: flex;
+    flex-direction: row;
+   }
+   .logo-footer {
+    height: 15vh;
+    width: 20vw;
+}
+.section-contact h1 {    
+    font-size:large;
+}
+.section-contact {
+    width: 85%;
+}
+.container-contact h3 {    
+    font-size: 20px;  
+}
+
+.container-contact p {
+    font-size: 18px;
+    
+}
+
+.slider {
+    width: 100%;
+    height: 100%;
+}
+.section-we-are {
+    width: 85%;
+   
+}
+.section-we-are span {
+    font-size: 1rem;
+}
+.section-we-are p {
+    font-size: 1.2rem;
+}
+.section-we-are img {
+    display: none;    
+
+}
+.img-footer {
+    height: 15vh;
+    width: 13vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    margin-top: 5vh;
+    width: 25vw;
+}
+.card p {
+    font-size: 1.1rem;
+}
+.img-tips{
+    width: 22vw;
+    height: 22vw;
+    margin-left: 39%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+}
+@media screen and (min-width: 1023px) { 
+    .img-logo{
+        padding-left: 15px;
+        height: 15vh;        
+        width: 9vw;
+    }
+    .header{
+        height: 15vh;
+        
+    }
+    .navbar-header li {
+        font-size: 1.2rem;
+        padding: 25px;
+    }
+     .menu-button{
+        margin-left: 170vh;
+    } 
+ 
+   .user-avatar{
+    
+    margin-left: 10vw;
+       }
+
+    .navbar-header li:hover{
+        color: rgb(206, 206, 206);
+        
+    }
+    .navbar-header li {
+        font-size: 1rem;
+    }
+    .navbar-header.open {
+        display: block;
+        margin-left: 150vh;
+      } 
+       .search{
+        width: 60%;
+        margin-left: 20vw;
+    }
+    .search p{
+        font-size:1.3rem;
+        font-weight: lighter;        
+    }
+    .input-search{
+        padding: 7px;
+        width: 25vw;
+        font-size: 1rem;
+    }
+    
+    .btn-search{
+        padding: 13px;
+        border-radius: 18px;
+        width: 8vw;
+    }
+    .btn-search:hover{
+        background-color: #02225ac7;
+    }
+    .categories{
+        display: grid;
+        gap: 1vw;
+        grid-template-columns: 20vw 20vw 20vw 20vw;
+        
+        
+    }
+    .name-categories {
+        font-size: 1rem;
+    }
+    .name-categories:hover{
+        color: #02225ac7;
+    }
+    .img-categories{
+        height: 12vh;
+        width: 8vw;
+    }
+    .img-categories:hover{
+        transform:scale(1.1);
+    }
+    .title-tips p {
+        font-size: 1.5rem;
+    }
+    .content p {
+        margin-top: 1vh;
+        margin-left: 3vw;
+        font-size: large;
+        width: 18vw;        
+    }
+    .title-brands{
+        font-size: large;
+    }
+    .container-footer{
+        display: flex;
+        flex-direction: row;
+       }
+       .contacto{
+       margin-top: -3vh;
+    }
+    .navbar{
+        display: flex;
+        flex-direction: row;
+        gap: 10vw;
+       }
+    .logo-footer {
+        margin-left: -9vw;
+        height: 18vh;
+        width: 13vw;
+        padding: 3vw;
+    }
+    .link-wpp {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background-color: #25D366;
+        color: white;
+        border-radius: 50%;
+        padding: 15px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        font-size: 20px;
+        text-decoration: none;
+        transition: background-color 0.3s ease;
+        cursor: pointer;
+        z-index: 1000;
+        
+    }
+    .wpp-icon{
+        font-size: 30px;
+    }
+  
+    .link-wpp:hover {
+        transform: scale(1.1);
+
+    }
+
+    
+    .title-we-are {
+        padding-top: 8vh;
+        font-size: 1.5rem;
+    }
+    .section-we-are {
+        width: 75%;
+        
+    }
+    .section-we-are span {
+        font-size: 1rem;
+    }
+
+    .section-we-are img {
+       
+        display: none;
+    }
+    .section-we-are p {
+        font-size: 1.3rem;
+    }
+    .section-we-are span {
+        font-size: 1.2rem;
+    }
+
+    /*PAGINA CATEGORIA - PRODUCTOS*/
+    .title-product-categories{
+        font-size: 1.5rem;
+        padding-top: 5vh;
+    }
+    .description-product-categories{
+        font-size: 1rem;       
+        width: 75%;       
+
+    }
+    .container-card-product {
+      width: 20vw;
+      
+    }
+    .price{
+        font-size: 2rem;
+    }
+    .img-product {
+        width: 15vw;
+        height: 15vw;
+    }
+    .name-card-product {
+        margin-top: 6vh;
+        height: 8vh;
+        text-transform: uppercase;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .price {
+        font-size: 1.2rem;
+    }
+    .description-card-product {
+        height: 9vh;
+        padding: 2px;
+        font-size: 1.2rem;
+    }
+    .section-contact {
+        width: 85%;
+        margin-top: 20vh;
+       
+    }
+    .section-contact p {    
+        font-size: 20px;
+    }
+    .section-contact h3 {    
+        font-size: 1.2rem;
+    }
+    .section-contact h1 {    
+        font-size: 1.8rem;
+    }
+    .slider {
+        width: 100%;
+        height: 100%;
+    }
+  
+    .img-tips{
+        width: 15vw;
+        height: 15vw;
+        margin-left: 42vw;
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
+    .card p {
+        font-size: 1rem;
+        width: 50%;
+        margin-left: 25vw;        
+    }
+    .img-footer{
+        margin-left: -50vh;
+        height: 15vh;        
+        width: 9vw;
+    }
+    .container-footer{
+        height: 25vh;
+        
+    }
+    .navbar {
+        margin-left: -10vw;
+    }
+    
+    
+
+
+
+}

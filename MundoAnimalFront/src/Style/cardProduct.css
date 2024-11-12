@@ -1,0 +1,32 @@
+.container-card-product{
+    border: none;
+    border-radius: 8px;
+    width: 39vw;
+    padding: 5px;
+    text-align: center;
+    background-color: #ffff;
+    box-shadow: 1px 1px 1px 1px #c4c3c3;
+    color: #052560;
+    
+}
+
+.img-product{
+    width: 38vw;
+    height: 38vw;
+}
+
+.img-product:hover{
+    scale: 1.1;
+}
+
+.name-card-product{
+    height: 8vh;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold  ;
+}
+.description-card-product{
+    height: 12vh;
+    padding: 2px;
+    font-size: 0.9rem;
+}

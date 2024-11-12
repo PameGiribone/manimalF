@@ -1,0 +1,49 @@
+.container-info-we-are{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    color: #052560;
+    
+}
+.section-we-are{
+    display: flex;
+    gap: 5px;
+    height: max-content;
+    padding: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-we-are img{
+    height: 48vh;
+    width: 70vw;
+}
+.title-we-are{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10vw;
+    
+}
+.title-we-are p {
+    margin-top: 12vh;
+    color: #052560;
+    font-weight: bold;
+    
+}
+.info-we-are{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: small;
+}
+.info-we-are p{
+    font-weight: bold;
+    margin-left: 10vw;
+}
+.info-we-are span{
+    font-size: 12px;
+    padding: 8px;
+}

@@ -1,0 +1,101 @@
+.container-edit{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-product-edit{
+    margin-top: 15vh;
+    font-size:x-large;
+    color: #052560;
+    
+}
+
+.search-product-edit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.input-search-product-edit{
+    background-color: #F5F5F5;
+    width: 50%;
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 1em;
+    
+}
+
+.btn-search-product-edit{
+    display: flex;
+    align-items: center;
+    background-color: #052560a8;
+    color: white;
+    padding: 1em;
+    height: 45px;
+    border: none;
+    border-radius: 1.5em;
+    cursor: pointer;
+    
+}
+.btn-search-product-edit:hover{
+    scale: 1.1;
+}
+
+.table-edit-product{
+    padding-top: 3vh;
+    
+}
+
+td,th  {
+    
+    padding-bottom:1vh ;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    width: 25vw;
+}
+td{
+    padding-top:2vh;
+}
+
+.input-edit{
+    width: 4vw;
+    text-align: center;
+    border: 1px solid #007bff;
+    border-radius: 8px;
+}
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.btn-edit ,.btn-delete, .btn-save{
+    border: none;
+    border-radius: 15px;
+    padding: 7px 12px;
+    color:beige;
+    cursor:pointer;
+}
+
+
+.btn-edit, .btn-save{
+    background-color: #007bff;
+}
+
+
+.btn-edit:hover, .btn-save:hover{
+    background-color: #0056b3;
+}
+.btn-delete{
+    background-color: #dc3545;
+}
+.btn-delete:hover{
+    background-color: #c82333
+}
+
+
